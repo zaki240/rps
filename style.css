@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #083358;
+}
+.navbar {
+  height: 100px;
+  background-color: #236969;
+  font-size: 20px;
+  border-bottom: 20px solid #114b5f;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 13px 24px;
+}
+.navbar ul {
+  margin-left: 400px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  color: #fffeb8;
+}
+.about img {
+  border: 10px solid #236969;
+  border-radius: 50px;
+  height: 300px;
+  float: right;
+  margin-top: -200px;
+  margin-right: 40px;
+}
+.about h1 {
+  margin-left: 200px;
+  margin-top: 100px;
+  color: white;
+  margin-bottom: 60px;
+}
+.paragraf p {
+  font-size: 22px;
+  color: white;
+  margin-left: 10px;
+}
+.about {
+  height: 500px;
+}
+/*  isi atur */
+.atur img {
+  border: 10px solid #114b5f;
+  border-radius: 50px;
+  height: 300px;
+  float: right;
+  margin-top: -300px;
+  margin-right: 40px;
+}
+.atur h1 {
+  margin-left: 200px;
+  margin-top: 100px;
+  color: white;
+  margin-bottom: 60px;
+}
+.p-atur p {
+  font-size: 22px;
+  color: white;
+  margin-left: 10px;
+}
+.atur {
+  height: 600px;
+  background-color: #236969;
+  border-top: 20px solid #114b5f;
+}
+/* permainan */
+
+.header {
+  margin: 1em;
+  padding: 1em;
+  font-size: 2em;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #fffeb8;
+  height: 150px;
+}
+
+.buttons {
+  margin: 1em;
+  padding: 1em;
+}
+
+button {
+  margin: 1em;
+  padding: 1em;
+  background-color: rgb(218, 218, 218);
+  font-size: 1.2em;
+  border: 0em;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #236969;
+  scale: 1.1;
+}
+
+#score {
+  margin: 1em;
+  color: #fffeb8;
+}
+
+#results {
+  margin: 1em;
+  color: #fffeb8;
+}
